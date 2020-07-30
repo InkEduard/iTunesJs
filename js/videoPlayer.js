@@ -24,6 +24,7 @@ export const videoPlayerInit = () => {
         } else {
             videoPlayer.pause();
         }
+        toggleIcon();
     };
 
     const stopPlay = () => {
